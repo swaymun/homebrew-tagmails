@@ -1,28 +1,28 @@
 class Tagmails < Formula
   desc "Email your coding agent: runs Codex or Claude Code for mail sent to your TagMails address"
   homepage "https://tagmails.com"
-  version "0.2.18"
+  version "0.2.19"
   license "MIT"
 
   on_macos do
     on_arm do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.18/tagmails-0.2.18-aarch64-apple-darwin.tar.gz"
-    sha256 "17534784a2b8f27645d5ddc5b5156ddc175b8a7ba067b9d3405497f56a9cbfd4"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.19/tagmails-0.2.19-aarch64-apple-darwin.tar.gz"
+    sha256 "d787f2cf985caf4cc67e2bece5e86e53ba6e3a2dc02637e0e4ffd19d79b8ce70"
     end
     on_intel do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.18/tagmails-0.2.18-x86_64-apple-darwin.tar.gz"
-    sha256 "dc079564ab2c37c2c3da2ed5c9c3b74c8881035b7b9c34ad7b8bc909a810e558"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.19/tagmails-0.2.19-x86_64-apple-darwin.tar.gz"
+    sha256 "e5ad158f04776de0cadf09e97ed6b080afa13ab87e10947b7c4f8847a9d2d5a9"
     end
   end
 
   on_linux do
     on_arm do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.18/tagmails-0.2.18-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "5fe325d57774d03468b600e5df82b73616df203ee29bfbb307cc76e276e144c0"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.19/tagmails-0.2.19-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "9bdb103d862186c0cf10a4662db56a5471436c1942e522bff906f5fc7b676fec"
     end
     on_intel do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.18/tagmails-0.2.18-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "ca3ee7f44046190f25d15219031d7578c991421684235776309de32a02c48a77"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.19/tagmails-0.2.19-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "984eaa4d59b33d52d612d4641c5503f6d113710ae945da19e5c01ad18d18105f"
     end
   end
 

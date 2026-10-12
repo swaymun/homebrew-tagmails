@@ -1,28 +1,28 @@
 class Tagmails < Formula
-  desc "Email your coding agent: runs Codex or Claude Code for mail sent to your TagMails address"
+  desc "Email your coding agent: runs Codex or Claude Code for mail sent to your Tagmails address"
   homepage "https://tagmails.com"
-  version "0.2.29"
+  version "0.2.30"
   license "MIT"
 
   on_macos do
     on_arm do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.29/tagmails-0.2.29-aarch64-apple-darwin.tar.gz"
-    sha256 "e829bd5cf048cb93afb464fb81d260856c84ad21f18a3c4698fa4c6a9057e57d"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.30/tagmails-0.2.30-aarch64-apple-darwin.tar.gz"
+    sha256 "76ae160bcb690cc263e24a7596822a4a379568ecd4f280dbf7172bda9ebebd44"
     end
     on_intel do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.29/tagmails-0.2.29-x86_64-apple-darwin.tar.gz"
-    sha256 "d696da6c9bac7c6d696806d455a5297bbb623a9a2d75ca5c9094fe34dc9c1eb2"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.30/tagmails-0.2.30-x86_64-apple-darwin.tar.gz"
+    sha256 "2fd2560d3d1d6be356d1a8d6fc9b41befdbb1249d695ec2559360158c6ed8cee"
     end
   end
 
   on_linux do
     on_arm do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.29/tagmails-0.2.29-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "e1e141c3ecc5b5422f57d71ead31e5be6c93d7ed071477d6f23d64ee2065473c"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.30/tagmails-0.2.30-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "5546108f7ecba41630ff2e025fc7d41d00ca63380b1e5652629d8c6902ac7aa8"
     end
     on_intel do
-    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.29/tagmails-0.2.29-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "44aa5129e93e0556dc4cc0bc30a3f88ca197b6cf1de5aae4e5600eedd3209375"
+    url "https://github.com/swaymun/homebrew-tagmails/releases/download/v0.2.30/tagmails-0.2.30-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "aab1e25c4e31024095229dd69d33316686b4bf7de6bb7a232276c3fc9da7e020"
     end
   end
 
